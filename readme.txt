@@ -43,57 +43,7 @@
 			 **********************************************
 
 
- References used for gaming mechanics: 
-
- Understanding Pac-Man Ghost Behavior -- GameIntervals
- http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior
-
- The Pac-Man Dossier -- Jamie Pittman
- http://home.comcast.net/~jpittman2/pacman/pacmandossier.html
+ 
 
 
 
-
-
-
-             	   //////// Concepts Used /////////
-
-JavaScript
-
- - Function callbacks
-   setInterval() used to refresh game, setTimeOut() used to pause screen 
-   shortly during countdown to start.
-
- - Anonymous function
-   Used with setTimeOut during countdown.
-
- - Optional parameters
-   Run() takes an optional parameter of isGodMode to determine whether or not
-   to enter god mode.
-
- - Arrays
-   Used for constructing game board grids (2-D array), keeping record of ghosts
-   and lives left, and an assortment of other various elements.
-
- - Objects
-   Pacman, ghosts, and grids are all objects. 
-   They have constructors, properties, parameters, prototypes, overridden 
-   toString() methods, etc.
-
-
-HTML5 Canvas
-
- - Rectangles, rectangles everywhere.
-   Used for grids, covering up areas that need to be refreshed, etc.
-
- - Strokes and fills
-   For drawing everything.
-
- - Paths, arcs, circles
-   For drawing Pacman and ghosts.
-
- - Text
-   For showing welcome screen, instructions, and scores.
-
- - Keyboard events
-   Used to make Pacman move.
